@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | </title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header id="header">
+        <div id="logo-container">
+            <a href="index.html">LOGO</a>
+        </div>
+
+        <form id="city-form privacy-form">
+            <button type="submit" id="city-btn" class="privacy-btn-">
+                <svg class="svg-icon search-icon" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
+                <g class="search-path" fill="none" stroke="#848F91">
+                <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/>
+                </g>
+                </svg>
+            </button>
+            <input type="text" placeholder="Search Your City" id="city" class="privacy-btn-">
+        </form>
+
+        <nav id="navbar">
+            <a href="index.html" >Home</a>
+            <a href="privacy.html" >Privacy Policy</a>
+            <a href="about.html">About Us</a>
+        </nav>
+
+        <button id="toggle-btn">&#9776;</button>
+        <div id="collapsed-menu" class="invis">
+            <button id="cross-btn">&#10006;</button>
+            <div id="inside-collapsed">
+                <a href="index.html">Home</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="about.html">About Us</a>
+            </div>
+            
+        </div>
+    </header>
+
+    <main id="c-main" >
+        
+        
+        <img id="c-img" src="assets/reki.png" alt="notFound">
+
+        <div id="contact-Us-container">
+            <h2 id="contact-h2">Contact Us</h2>
+            <form id="c-form" action="">
+                <div class="contact-double">
+                    <input type="text" name="f-name" id="cf-name" placeholder="First Name">
+                    <input type="text" name="l-name" id="lfname" placeholder="Last Name">
+                </div>
+                <div class="contact-double">
+                    <input type="email" name="email" id="c-email" placeholder="Email">
+                    <input type="tel" name="phone" id="c-phone" placeholder="Phone Number">
+                </div>
+
+                <div class="contact-single">
+                    <input type="text" name="enquiry" id="c-enquiry" placeholder="Inquiry">
+                </div>
+
+                <textarea name="msg" id="c-msg" cols="30" rows="7"></textarea>
+
+                <button type="submit" id="c-submit">SUBMIT</button>
+            </form>
+        </div>
+       
+    </main>
+
+
+    <footer>
+        <a href="terms.html">Terms & Conditions</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="">Home</a>
+        <a href="">Home</a>
+    </footer>
+    <script src="scripting.js"></script>
+    
+</body>
+</html>
