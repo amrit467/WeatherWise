@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
  
 
-    const apiKey = '3ad4fdd89d884f9a969113334240802';
+    const apiKey = '';
+   // get the api key from OPENWeatherMap Api and feed it here
     
     const defaultCity = 'New delhi';
 
@@ -493,6 +494,7 @@ document.addEventListener('DOMContentLoaded', function () {
         function delayedFunction(country)
         {
             const api2key='';
+         // get the api key from newsdata.io and feed here
         
             const url2 = `https://newsdata.io/api/1/news?apikey=${api2key}&q=pegasus&language=en`;
 
